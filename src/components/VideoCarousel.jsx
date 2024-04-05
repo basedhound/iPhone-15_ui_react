@@ -19,9 +19,9 @@ const VideoCarousel = () => {
     isLastVideo: false,
     isPlaying: false,
   });
-
-  const [loadedData, setLoadedData] = useState([]);
+  // Destructure to get the values
   const { isEnd, isLastVideo, startPlay, videoId, isPlaying } = video;
+  const [loadedData, setLoadedData] = useState([]);
 
   useGSAP(() => {
     // slider animation to move the video out of the screen and bring the next video in
@@ -47,6 +47,7 @@ const VideoCarousel = () => {
     });
   }, [isEnd, videoId]);
 
+  // update the progress bar
   useEffect(() => {
     let currentProgress = 0;
     let span = videoSpanRef.current;
@@ -92,6 +93,7 @@ const VideoCarousel = () => {
         },
       });
 
+      //  restart the animation when the video is replayed
       if (videoId == 0) {
         anim.restart();
       }
@@ -114,6 +116,7 @@ const VideoCarousel = () => {
     }
   }, [videoId, startPlay]);
 
+  // pause or play the video
   useEffect(() => {
     if (loadedData.length > 3) {
       if (!isPlaying) {
@@ -178,6 +181,7 @@ const VideoCarousel = () => {
                   onPlay={() =>
                     setVideo((pre) => ({ ...pre, isPlaying: true }))
                   }
+                  // onLoadedMetadata is called when the metadata for the video has been loaded
                   onLoadedMetadata={(e) => handleLoadedMetaData(i, e)}>
                   <source src={list.video} type="video/mp4" />
                 </video>
@@ -210,6 +214,7 @@ const VideoCarousel = () => {
           ))}
         </div>
 
+        {/* Button to play/pause/replay the video */}
         <button className="control-btn">
           <img
             src={isLastVideo ? replayImg : !isPlaying ? playImg : pauseImg}
