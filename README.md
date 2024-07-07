@@ -44,8 +44,6 @@
 
 👉 **Completely Responsive**: Consistent access and optimal viewing on any device with a fully responsive design that adapts to different screen sizes.
 
-and many more, including code architecture and reusability.
-
 ## <br /> <a name="quick-start">🚀 Quick Start</a>
 
 Follow these steps to set up the project locally on your machine.
