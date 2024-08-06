@@ -1,6 +1,6 @@
 <div align="center">
     <a href="https://iphone15-fv.netlify.app" target="_blank">
-      <img src="public/preview.webp" alt="Project Banner">
+      <img src="public/design/preview.png" alt="Project Banner">
     </a>
   <h3 align="center">iPhone 15 Website</h3>
 </div>
@@ -20,19 +20,19 @@
 
 ##  <br /> <a name="tech-stack">⚙️ Tech Stack</a>
 
-- **React.js** is a JavaScript library for building user interfaces, developed by Facebook. React.js allows developers to create reusable UI components that manage their own state, leading to more efficient and predictable code. It is widely used for developing single-page applications (SPAs) due to its virtual DOM that improves performance and ease of maintenance.
+- [**React**](https://react.dev/reference/react) is a JavaScript library for building user interfaces, developed by Facebook. React.js allows developers to create reusable UI components that manage their own state, leading to more efficient and predictable code. It is widely used for developing single-page applications (SPAs) due to its virtual DOM that improves performance and ease of maintenance.
   
-- **Three.js** is a powerful JavaScript library that simplifies the creation of 3D graphics in the browser using WebGL. Three.js provides a wide range of features for rendering, animation, and interaction with 3D objects, making it a popular choice for building immersive web experiences, including games, data visualizations, and interactive art.
+- [**Three.js**](https://threejs.org/docs/) is a powerful JavaScript library that simplifies the creation of 3D graphics in the browser using WebGL. Three.js provides a wide range of features for rendering, animation, and interaction with 3D objects, making it a popular choice for building immersive web experiences, including games, data visualizations, and interactive art.
   
-- **React Three Fiber** is a React renderer for Three.js, which allows developers to build 3D graphics using React components. By leveraging React's component-based architecture and hooks, React Three Fiber makes it easier to manage complex 3D scenes, reuse code, and integrate with other React-based libraries and tools.
+- [**Three Fiber**](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction) is a React renderer for Three.js, which allows developers to build 3D graphics using React components. By leveraging React's component-based architecture and hooks, React Three Fiber makes it easier to manage complex 3D scenes, reuse code, and integrate with other React-based libraries and tools.
   
-- **React Three Drei** is a collection of useful helpers and abstractions for React Three Fiber, designed to simplify common tasks and reduce boilerplate code. React Three Drei includes components for lighting, controls, physics, and other essential features, enabling developers to quickly set up and customize their 3D scenes.
+- [**Three Drei**](https://github.com/pmndrs/drei) is a collection of useful helpers and abstractions for React Three Fiber, designed to simplify common tasks and reduce boilerplate code. React Three Drei includes components for lighting, controls, physics, and other essential features, enabling developers to quickly set up and customize their 3D scenes.
 
-- **GSAP (Greensock)** is a robust animation library for creating high-performance, professional-grade animations in JavaScript. GSAP (GreenSock Animation Platform) offers a wide range of features, including smooth transitions, complex sequences, and cross-browser compatibility. It is known for its speed and flexibility, making it a popular choice for animating web and mobile applications.
+- [**GSAP**](https://gsap.com/docs/v3/) (Greensock) is a robust animation library for creating high-performance, professional-grade animations in JavaScript. GSAP (GreenSock Animation Platform) offers a wide range of features, including smooth transitions, complex sequences, and cross-browser compatibility. It is known for its speed and flexibility, making it a popular choice for animating web and mobile applications.
 
-- **Vite** is a modern build tool that provides a fast and efficient development environment with hot module replacement (HMR). Vite is designed to be a lean and extensible alternative to traditional bundlers like Webpack. It leverages native ES modules and a development server to deliver near-instantaneous updates during development, significantly improving developer productivity.
+- [**Vite**](https://vitejs.dev/guide/) is a modern build tool that provides a fast and efficient development environment with hot module replacement (HMR). Vite is designed to be a lean and extensible alternative to traditional bundlers like Webpack. It leverages native ES modules and a development server to deliver near-instantaneous updates during development, significantly improving developer productivity.
 
-- **Tailwind CSS** is an utility-first CSS framework that allows developers to build custom designs quickly by composing utility classes directly in their markup. Tailwind CSS promotes a different approach to styling compared to traditional CSS frameworks by providing a set of low-level utility classes that can be combined to achieve any design. This leads to faster development, easier maintenance, and a more consistent design system.
+- [**Tailwind**](https://v2.tailwindcss.com/docs) is an utility-first CSS framework that allows developers to build custom designs quickly by composing utility classes directly in their markup. Tailwind CSS promotes a different approach to styling compared to traditional CSS frameworks by providing a set of low-level utility classes that can be combined to achieve any design. This leads to faster development, easier maintenance, and a more consistent design system.
 
 ## <br/> <a name="features">📝 Features</a>
 
