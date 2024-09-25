@@ -1,8 +1,8 @@
 <div align="center">
-    <a href="https://iphone15-fv.netlify.app" target="_blank">
+    <a href="https://iphone15-fv.vercel.app" target="_blank">
       <img src="public/design/preview.png" alt="Project Banner">
     </a>
-  <h3 align="center">iPhone 15 Website</h3>
+  <h3 align="center">iPhone 15 UI</h3>
 </div>
 
 ##  <br /> 📋 <a name="table">Table of Contents</a>
